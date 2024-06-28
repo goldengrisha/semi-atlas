@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "semi-atlas"
+version = "0.1.0"
+description = ""
+authors = ["Gregory <goldengrisha@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+langchain-community = "^0.2.6"
+langchain-huggingface = "^0.0.3"
+docarray = "^0.40.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
